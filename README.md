@@ -53,7 +53,7 @@ Eskimotron can email you each time a trade is made. To do this you will need to 
 3. Enter the Gmail address which will function as the SMTP server.
 4. Enter the Gmail password that relates to the Gmail address.
 5. Save default.cfg
-6. Within Eskmitron select the Settings options.
+6. Within Eskimotron select the Settings options.
 7. Select Email Notifications.
 
 That's it! Hope you have fun with it. 
