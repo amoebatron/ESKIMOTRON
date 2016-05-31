@@ -58,7 +58,7 @@ Eskimotron can email you each time a trade is made. To do this you will need to 
 
 That's it! Hope you have fun with it. 
 
-#### DISCLAIMER: I should probably add that I only starting learning Python three weeks ago so don't blame if you lose everything. Operate at own risk.
+#### DISCLAIMER: I should probably add that I only starting learning Python three weeks ago so don't blame me if you lose everything. Operate at own risk.
 
 
 
