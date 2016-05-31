@@ -16,7 +16,7 @@ Eskimotron - A little trading app originally designed for Monero (XMR). Works wi
 
 #### Trading
 
-Eskimotron works as a time trader / threshold trader combination. When trading anything it will always ask you for the following four variables:-
+Eskimotron operates a time AND threshold trading mechanism. When trading anything it will always ask you for the following four variables:-
 
 1. Amount you wish to trade.
 2. Trading threshold price.
@@ -36,13 +36,13 @@ Let's say you wanted to buy 5 BTC's worth of XMR on Poloniex, but only at a purc
 7. Enter 120 for the frequency (in seconds).
 8. Hit (Y) or (y) to start the program.
 
-##### Threshold Only
+##### Threshold-Only
 
-For threshold only trades, enter the trading amount and threshold price as normal, but enter 0 for duration, and 0 for frequency.
+For Threshold-Only trades, enter the trading amount and threshold price as normal, but enter 0 for duration and 0 for frequency.
 
-##### Time Only
+##### Time-Only
 
-For time only trades, follow the same steps but simply widen the thresholds to make any trades a practical certainty. For example, suppose you wanted to sell on Time Only you would might set the threshold to 99999.
+For Time-Only trades, enter the required duration and frequency, but widen the threshold accordingly. For example: If buying, set the threshold to 9999. If selling, set the threshold to 0.
 
 #### Using Email Notifications
 
