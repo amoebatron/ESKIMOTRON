@@ -42,9 +42,20 @@ For threshold only trades, enter the trading amount and threshold price as norma
 
 ##### Time Only
 
-For time only trades, follow the same steps but simply widen the thresholds to make any trades a practical certainty. For example, suppose you wanted to sell on Time Only you would might set the threshold to 99999. 
+For time only trades, follow the same steps but simply widen the thresholds to make any trades a practical certainty. For example, suppose you wanted to sell on Time Only you would might set the threshold to 99999.
 
- 
+#### Using Email Notifications
+
+Eskimotron can email you each time a trade is made. To do this you will need to set up a throw-away Gmail account which will function as the SMTP server. (NOTE: You will need to ensure that the Gmail account is accessible by 3rd-party applications. Consult Google documention if you are unsure how to do this.) Then:-
+
+1. Open the file called default.cfg
+2. Enter the email address to which you want to SEND trade reports.
+3. Enter the Gmail address which will function as the SMTP server.
+4. Enter the Gmail password that relates to the Gmail address.
+5. Save default.cfg
+6. Within Eskmitron select the Settings options.
+7. Select Email Notifications.
+
 That's it! Hope you have fun with it. 
 
 #### DISCLAIMER: I should probably add that I only starting learning Python three weeks ago so don't blame if you lose everything. Operate at own risk.
