@@ -7,9 +7,6 @@ import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
-import pygame
-from pygame.locals import *
-
 version = 0.7
 # Get tradin configuration from trading.cfg
 
