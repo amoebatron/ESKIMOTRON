@@ -71,7 +71,7 @@ def polo_validate():
     num = len(pairs_list)
     ticker = polobot.returnTicker()
     new_list = []
-    for i in range (0,num-1):
+    for i in range (0,num):
         try:
             pair_name = (str(pairs_list[i])).upper()
             pair_code = polo_pair_parser(pair_name)
