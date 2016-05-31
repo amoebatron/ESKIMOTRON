@@ -179,7 +179,6 @@ def get_sell_price(pair_name,alt_unit_amount,exchange):
 
 poloniexPairs = polo_validate()
 bittrexPairs = pairs.options("BITTREX")
-bitstampPairs = pairs.options("BITSTAMP")
 enabled = True
 emailer = False
 body = ""
